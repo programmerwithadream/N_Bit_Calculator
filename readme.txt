@@ -1,0 +1,5 @@
+This file contains a prototype of a calculator designed for Intel DE10-Lite FPGA. As designed, it will display up to 6 digits on the FPGA board and supports addition, subtraction, multiplication, and division. The division will only yield quotient. display of negative numbers or entering negative number is not yet supported. The user can specify the number of bits this calculator can support in the n_bit_calculator module, but as the FPGA only has 6 7-segment displays, the result will not be accurately reflected.
+
+The calculator also supports chain operations. Before pressing equal button, the user can press other operations to continue performing calcuations. The operations are calculated in the order received. Order of operation is not supported.
+
+If you have any questions, comments, or suggestions, please reach out to me via shyi.justin@gmail.com
